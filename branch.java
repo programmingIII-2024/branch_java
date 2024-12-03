@@ -36,7 +36,7 @@ public class branch
 		while(true)
 		{
 			if(int_data <0)					// breakもCと同じ挙動
-				break;
+				break;						// continueも使える
 			System.out.println(--int_data); // --i,  i++の挙動も同じなので試してみる
 		}
 		*/
